@@ -15,5 +15,5 @@ The GRU.ipynb has been changed from an AutoEncoder to a Reccurent Classifier for
 
 Apart from the above, a UTIL.ipynb has been added to extract MFCC features and into tensors to avoid delay with DataLoader. EVAL.ipynb consists of the final saved module with the weights for both models being used to solve the task of Speech-to-Image.
 
-#Instructions to run Mini-Project 3
+# Instructions to run Mini-Project 3
 Run UTIL.py to process AudioMNIST subset and save MFCC dataset as Tensor locally. Run GRU.ipynb and DCGAN.ipynb to obtain weights for both models. Run EVAL.py to obtain final output. For ease of verification, both model weights are saved.
